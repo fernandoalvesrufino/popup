@@ -16,7 +16,7 @@ button {
 }
 
 .popup-wrapper {
-  /* display: none; */
+  display: none;
   background: rgba(0, 0, 0, .5);
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ button {
   text-align: center;
   width: 100%;
   max-width: 25rem;
-  margin: 30% auto;
+  margin: 15% auto;
   padding: 2rem;
   background: white;
   position: relative;
