@@ -4,15 +4,25 @@
   padding: 0;
 }
 
+/* Para centralizar o botão CLIQUE AQUI */
+/* body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 button {
   display: block;
-  margin: 20px auto;
+  margin: 3rem auto;
   background: crimson;
   color: white;
   border: 0;
   cursor: pointer;
   padding: 6px 10px;
   border-radius: 4px;
+  font-size: 1rem;
 }
 
 .popup-wrapper {
@@ -26,15 +36,21 @@ button {
 }
 
 .popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  width: 100%;
   max-width: 25rem;
-  margin: 15% auto;
   padding: 2rem;
-  background: white;
-  position: relative;
   border-radius: .25rem;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 35%;
 
 }
 
